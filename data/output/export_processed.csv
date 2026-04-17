@@ -1,0 +1,51 @@
+order_id,customer_name,country,product,quantity,price_usd,order_date,ship_date,port,status
+1001, GlobalTrade Inc ,USA,coffee beans,120,5400.0,2024-05-01,2024-10-01,Miami,Shipped
+1002,agroExport ,colombia,Sugar,300,7200.0,,2024-12-01, Cartagena ,Pending
+1003,Andes Foods, Peru ,Quinoa,150,,2024-07-01,,Callao,shipped
+1004,,Mexico,Avocado,200,6800.0,2024-08-01,,Veracruz,Shipped
+1005,Pacific Traders,Chile ,salmon,85,10200.0,2024-09-01,, Valparaiso ,Delivered
+1006,Atlantic Export,Brazil, Soybeans ,400,15000.0,2024-10-01,,Santos,shipped
+1007,GreenFarm Ltd,ARGENTINA,Corn,350,8900.0,2024-11-01,,Buenos Aires,Pending
+1008, ,USA,Wheat,500,12000.0,,,Houston,Delivered
+1009,Sunrise Foods,Peru, quinoa ,180,4300.0,,,Callao,shipped
+1010,Latam Export,Mexico,Avocado,210,7100.0,,,Veracruz,Delivered
+1011,GlobalTrade Inc,USA,coffee beans,130,5600.0,,,Miami,Shipped
+1012,AgroExport,COLOMBIA,Sugar,290,7100.0,,,Cartagena,Pending
+1013,Andes Foods,Peru,Quinoa,170,4500.0,,,Callao,Shipped
+1014,Pacific Traders,Chile,Salmon,90,10400.0,,,Valparaiso,Delivered
+1015,Atlantic Export,Brazil,Soybeans,410,15200.0,,,Santos,Shipped
+1016,GreenFarm Ltd,Argentina,Corn,360,,,,Buenos Aires,Pending
+1017,,USA,Wheat,480,11800.0,,,Houston,Delivered
+1018,Sunrise Foods,Peru,Quinoa,175,4400.0,,,Callao,shipped
+1019,Latam Export,Mexico, avocado ,205,7000.0,,,Veracruz,Delivered
+1020,GlobalTrade Inc,USA,Coffee Beans,125,5500.0,,2024-01-02,Miami,Shipped
+1021,AgroExport,Colombia,Sugar,305,7300.0,,2024-02-02,Cartagena,Pending
+1022,Andes Foods,Peru,Quinoa,160,4200.0,,,Callao,Shipped
+1023,Pacific Traders,Chile,Salmon,88,10100.0,,2024-04-02,Valparaiso,Delivered
+1024,Atlantic Export,Brazil,Soybeans,395,14900.0,,2024-05-02,Santos,Shipped
+1025,GreenFarm Ltd,Argentina,Corn,370,9000.0,,2024-06-02,Buenos Aires,Pending
+1026,,USA,Wheat,490,11900.0,,2024-07-02,Houston,Delivered
+1027,Sunrise Foods,Peru,Quinoa,182,4450.0,,2024-08-02,Callao,Shipped
+1028,Latam Export,Mexico,Avocado,215,7200.0,,2024-09-02,Veracruz,Delivered
+1029,GlobalTrade Inc,USA,Coffee beans,128,5520.0,,2024-10-02,Miami,Shipped
+1030,AgroExport,Colombia,Sugar,310,7350.0,,2024-11-02,Cartagena,Pending
+1031,Andes Foods,Peru,Quinoa,165,4300.0,,2024-12-02,Callao,Shipped
+1032,Pacific Traders,Chile,Salmon,92,10500.0,,,Valparaiso,Delivered
+1033,Atlantic Export,Brazil,Soybeans,405,15100.0,2024-01-02,,Santos,Shipped
+1034,GreenFarm Ltd,Argentina,Corn,355,8800.0,2024-02-02,,Buenos Aires,Pending
+1035,,USA,Wheat,470,11750.0,2024-03-02,,Houston,Delivered
+1036,Sunrise Foods,Peru,Quinoa,178,,2024-04-02,,Callao,Shipped
+1037,Latam Export,Mexico,Avocado,208,7050.0,2024-05-02,,Veracruz,Delivered
+1038, GlobalTrade Inc ,USA,Coffee Beans,132,5650.0,2024-06-02,,Miami,Shipped
+1039,AgroExport ,colombia,Sugar,295,7250.0,,, Cartagena ,Pending
+1040,Andes Foods, Peru ,Quinoa,168,4350.0,2024-07-02,,Callao,shipped
+1041,Pacific Traders,Chile ,salmon,89,10300.0,2024-08-02,, Valparaiso ,Delivered
+1042,Atlantic Export,Brazil,Soybeans,420,15300.0,2024-09-02,,Santos,Shipped
+1043,GreenFarm Ltd,ARGENTINA,Corn,365,9100.0,2024-10-02,,Buenos Aires,Pending
+1044,,USA,Wheat,495,12100.0,,,Houston,Delivered
+1045,Sunrise Foods,Peru, quinoa ,183,4480.0,,,Callao,shipped
+1046,Latam Export,Mexico,Avocado,212,7150.0,2024-12-02,,Veracruz,Delivered
+1047,GlobalTrade Inc,USA,coffee beans,134,5700.0,,,Miami,Shipped
+1048,AgroExport,COLOMBIA,Sugar,315,7400.0,,,Cartagena,Pending
+1049,Andes Foods,Peru,Quinoa,172,4380.0,,2024-01-03,Callao,Shipped
+1050,Pacific Traders,Chile,Salmon,95,10600.0,,2024-02-03,Valparaiso,Delivered

@@ -1,0 +1,33 @@
+---
+description: Orquesta el pipeline secuencial 1–10 de carga, limpieza y export de datasets; delega en subagentes y aplica skills del proyecto.
+alwaysApply: false
+---
+
+# Agente orquestador — Dataset Pipeline (Cursor)
+
+Eres el **orquestador** del flujo de datos. No implementes transformaciones de datos tú mismo: **delega** cada etapa al subagente indicado y usa las **skills** del proyecto solo como referencia de contratos y código base.
+
+## Secuencia obligatoria
+
+1. `dataset-pipeline-load` → 2. `dataset-pipeline-schema` → 3. `dataset-pipeline-explore` → 4. `dataset-pipeline-nulls` → 5. `dataset-pipeline-dedupe` → 6. `dataset-pipeline-types` → 7. `dataset-pipeline-categories` → 8. `dataset-pipeline-validate-ranges` → 9. `dataset-pipeline-quality` → 10. `dataset-pipeline-export`
+
+## Skills del proyecto (léelas antes de codificar o revisar)
+
+| Dominio | Ruta |
+|--------|------|
+| I/O | `.cursor/skills/dataset-pipeline-io/SKILL.md` |
+| Schema | `.cursor/skills/dataset-pipeline-schema/SKILL.md` |
+| Perfilado | `.cursor/skills/dataset-pipeline-profile/SKILL.md` |
+| Limpieza (nulos, duplicados) | `.cursor/skills/dataset-pipeline-clean/SKILL.md` |
+| Tipos y categorías | `.cursor/skills/dataset-pipeline-types-categories/SKILL.md` |
+| Validación y calidad | `.cursor/skills/dataset-pipeline-validate-quality/SKILL.md` |
+
+## Contrato de run
+
+- Mantén `run_id`, `manifest.json` (URIs, `schema_hash`, políticas) y `metrics.json` por etapa bajo el directorio de artefactos del run.
+- **Fail-fast** salvo que el usuario pida continuar con datos degradados tras etapa 9.
+- Variables típicas: `DATA_INPUT_URI`, `DATA_OUTPUT_URI`; opcional `DATABASE_URL`, `API_KEY`, credenciales de almacenamiento.
+
+## Al invocar subagentes
+
+Pasa en el prompt: `run_id`, ruta del manifest actual, artefacto tabular actual (parquet/csv), y qué etapa sigue. El subagente solo cubre **su** número de etapa.
